@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.17.0",
+    "mammoth": "^1.8.0",
+    "nuxt": "^3.12.1",
+    "pdfjs-dist": "^4.3.136",
+    "vue": "^3.4.27",
+    "vue-pdf": "^4.3.0",
+    "vue-router": "^4.3.3",
+    "vue3-pdfjs": "^0.1.6"
+  }
+}
