@@ -2,7 +2,7 @@
 	<div>
 		<iframe
 			width="100%"
-			height="100vh"
+			height="600"
 			:src="googleDocsUrl"
 			frameborder="0"
 			scrolling="auto"></iframe>
@@ -12,15 +12,17 @@
 <script setup>
 	import { ref, onMounted } from "vue";
 
-	const googleDocsUrl = ref("");
+	const googleDocsUrl = ref(
+		"https://docs.google.com/gview?url=http://ieee802.org/secmail/docIZSEwEqHFr.doc&embedded=true"
+	);
 
 	onMounted(() => {
 		const baseUrl = window.location.origin; // Get the base URL of your app
 		const filePath = "sample_doc.docx"; // Path to your .docx file in the public folder
 		const docxUrl = `${baseUrl}/${filePath}`;
-		googleDocsUrl.value = `https://docs.google.com/viewer?url=${encodeURIComponent(
-			docxUrl
-		)}&embedded=true`;
+
+		googleDocsUrl.value =
+			"https://docs.google.com/gview?url=http://ieee802.org/secmail/docIZSEwEqHFr.doc&embedded=true";
 	});
 </script>
 
