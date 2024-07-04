@@ -3,7 +3,7 @@
 		<h1>Pdf Preview</h1>
 		<!-- <WordPreview /> -->
 		<!-- <PdfPreviewIframe /> -->
-		<DocxPreviewIframe />
+		<CsvPreviewIframe />
 	</div>
 </template>
 

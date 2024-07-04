@@ -22,7 +22,7 @@
 		const docxUrl = `${baseUrl}/${filePath}`;
 
 		googleDocsUrl.value =
-			"https://docs.google.com/gview?url=http://ieee802.org/secmail/docIZSEwEqHFr.doc&embedded=true";
+			"https://docs.google.com/gview?url=http://localhost:3000/public/addresses.csv&embedded=true";
 	});
 </script>
 
